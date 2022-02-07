@@ -1,3 +1,25 @@
 @import "reset.css";
 @import "common.css";
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css);
+
+h1 {
+  font-size: 50px;
+}
+
+/* header  */
+
+.header {
+  background-color: #333;
+  color: snow;
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  padding: 8px 16px;
+  display: inline-block;
+}
