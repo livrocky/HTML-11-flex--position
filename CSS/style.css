@@ -1,0 +1,54 @@
+@import "CSS/reset.css";
+@import "CSS/common.css";
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css);
+
+body {
+  background-color: #333;
+  margin-bottom: 100px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+/* header  */
+
+.header {
+  background-color: transparent;
+  color: snow;
+  position: fixed;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid snow;
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  padding: 8px 16px;
+  display: inline-block;
+}
+
+/* hero */
+
+.hero {
+  background: url("Images/mountains.jpg") no-repeat;
+  background-size: cover;
+  /* padding-top: 200px;
+  padding-bottom: 200px; */
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-text-container {
+  color: snow;
+  /* border: 1px solid black; */
+}
